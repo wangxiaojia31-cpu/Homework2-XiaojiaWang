@@ -1,0 +1,12 @@
+{
+  "case_id": "case_4",
+  "prompt_version": "revision2",
+  "input_notes": "- Discussed company vision for next year\n- Talked about market trends\n- No specific tasks assigned",
+  "expected_output_note": "- Recognize no actionable tasks\n- Output should clearly state no action items\n- Avoid hallucinating tasks or owners",
+  "model_output_raw": "{\"decisions\": [], \"action_items\": [], \"open_questions\": []}",
+  "model_output_json": {
+    "decisions": [],
+    "action_items": [],
+    "open_questions": []
+  }
+}

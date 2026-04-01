@@ -1,0 +1,23 @@
+{
+  "case_id": "sample_case",
+  "prompt_version": "revision2",
+  "input_notes": "Discussed launching the new marketing campaign in May.\nSarah will prepare the first campaign draft by next Monday.\nThe team agreed to increase the campaign budget by 10%.\nThere was also some uncertainty about whether the pricing page needs revision.",
+  "expected_output_note": null,
+  "model_output_raw": "{\n  \"decisions\": [\n    \"Increase the campaign budget by 10%\"\n  ],\n  \"action_items\": [\n    {\n      \"task\": \"Prepare the first campaign draft\",\n      \"owner\": \"Sarah\",\n      \"deadline\": \"next Monday\"\n    }\n  ],\n  \"open_questions\": [\n    \"Launching the new marketing campaign in May\",\n    \"Whether the pricing page needs revision\"\n  ]\n}",
+  "model_output_json": {
+    "decisions": [
+      "Increase the campaign budget by 10%"
+    ],
+    "action_items": [
+      {
+        "task": "Prepare the first campaign draft",
+        "owner": "Sarah",
+        "deadline": "next Monday"
+      }
+    ],
+    "open_questions": [
+      "Launching the new marketing campaign in May",
+      "Whether the pricing page needs revision"
+    ]
+  }
+}

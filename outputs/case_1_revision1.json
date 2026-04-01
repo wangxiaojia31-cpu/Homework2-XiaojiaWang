@@ -1,0 +1,20 @@
+{
+  "case_id": "case_1",
+  "prompt_version": "revision1",
+  "input_notes": "- Discussed launching new marketing campaign\n- Sarah will prepare draft by next Monday\n- Team agreed to increase budget by 10%",
+  "expected_output_note": "- Identify decision: budget increase\n- Extract action item: prepare draft\n- Correctly assign owner (Sarah)\n- Correctly identify deadline (next Monday)",
+  "model_output_raw": "{\n  \"decisions\": [\n    \"Team agreed to increase budget by 10%\"\n  ],\n  \"action_items\": [\n    {\n      \"task\": \"Prepare draft\",\n      \"owner\": \"Sarah\",\n      \"deadline\": \"next Monday\"\n    }\n  ],\n  \"open_questions\": []\n}",
+  "model_output_json": {
+    "decisions": [
+      "Team agreed to increase budget by 10%"
+    ],
+    "action_items": [
+      {
+        "task": "Prepare draft",
+        "owner": "Sarah",
+        "deadline": "next Monday"
+      }
+    ],
+    "open_questions": []
+  }
+}

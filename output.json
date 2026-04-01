@@ -1,0 +1,17 @@
+```json
+{
+  "decisions": [
+    "The team agreed to increase the campaign budget by 10%"
+  ],
+  "action_items": [
+    {
+      "task": "Prepare the first campaign draft",
+      "owner": "Sarah",
+      "deadline": "Next Monday"
+    }
+  ],
+  "open_questions": [
+    "Does the pricing page need revision?"
+  ]
+}
+```

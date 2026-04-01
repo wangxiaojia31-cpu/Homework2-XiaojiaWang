@@ -1,0 +1,27 @@
+[
+  {
+    "case_id": "case_1",
+    "case_title": "Case 1: Normal Case",
+    "output_file": "outputs\\case_1_revision1.json"
+  },
+  {
+    "case_id": "case_2",
+    "case_title": "Case 2: Multiple Action Items",
+    "output_file": "outputs\\case_2_revision1.json"
+  },
+  {
+    "case_id": "case_3",
+    "case_title": "Case 3: Missing Information",
+    "output_file": "outputs\\case_3_revision1.json"
+  },
+  {
+    "case_id": "case_4",
+    "case_title": "Case 4: No Clear Action Items",
+    "output_file": "outputs\\case_4_revision1.json"
+  },
+  {
+    "case_id": "case_5",
+    "case_title": "Case 5: Ambiguous / High Hallucination Risk",
+    "output_file": "outputs\\case_5_revision1.json"
+  }
+]

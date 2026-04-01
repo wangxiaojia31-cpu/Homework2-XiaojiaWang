@@ -1,0 +1,25 @@
+{
+  "case_id": "case_3",
+  "prompt_version": "revision2",
+  "input_notes": "- Need to update the dashboard\n- Someone should check data accuracy\n- Timeline unclear",
+  "expected_output_note": "- Extract action items\n- Mark owner as \"Not specified\"\n- Mark deadline as \"Not specified\"\n- Avoid guessing missing information",
+  "model_output_raw": "{\n  \"decisions\": [],\n  \"action_items\": [\n    {\n      \"task\": \"Update the dashboard\",\n      \"owner\": \"Not specified\",\n      \"deadline\": \"Not specified\"\n    },\n    {\n      \"task\": \"Check data accuracy\",\n      \"owner\": \"Not specified\",\n      \"deadline\": \"Not specified\"\n    }\n  ],\n  \"open_questions\": [\n    \"Timeline unclear\"\n  ]\n}",
+  "model_output_json": {
+    "decisions": [],
+    "action_items": [
+      {
+        "task": "Update the dashboard",
+        "owner": "Not specified",
+        "deadline": "Not specified"
+      },
+      {
+        "task": "Check data accuracy",
+        "owner": "Not specified",
+        "deadline": "Not specified"
+      }
+    ],
+    "open_questions": [
+      "Timeline unclear"
+    ]
+  }
+}

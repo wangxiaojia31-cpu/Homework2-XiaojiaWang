@@ -1,0 +1,23 @@
+{
+  "case_id": "case_2",
+  "prompt_version": "revision1",
+  "input_notes": "- John will finalize the report\n- Emily will review the report\n- Deadline for both is Friday\n- Discussed improving customer retention strategy",
+  "expected_output_note": "- Extract two action items\n- Assign correct owners (John, Emily)\n- Assign shared deadline (Friday)\n- Separate discussion (strategy) from action items",
+  "model_output_raw": "{\n  \"decisions\": [],\n  \"action_items\": [\n    {\n      \"task\": \"Finalize the report\",\n      \"owner\": \"John\",\n      \"deadline\": \"Friday\"\n    },\n    {\n      \"task\": \"Review the report\",\n      \"owner\": \"Emily\",\n      \"deadline\": \"Friday\"\n    }\n  ],\n  \"open_questions\": []\n}",
+  "model_output_json": {
+    "decisions": [],
+    "action_items": [
+      {
+        "task": "Finalize the report",
+        "owner": "John",
+        "deadline": "Friday"
+      },
+      {
+        "task": "Review the report",
+        "owner": "Emily",
+        "deadline": "Friday"
+      }
+    ],
+    "open_questions": []
+  }
+}

@@ -23,7 +23,7 @@
 - Separate discussion (strategy) from action items
 
 
-## Case 3: Missing Information (Edge Case)
+## Case 3: Missing Information
 ### Input
 - Need to update the dashboard
 - Someone should check data accuracy

@@ -1,0 +1,16 @@
+{
+  "case_id": "case_5",
+  "prompt_version": "revision2",
+  "input_notes": "- Maybe update the pricing model?\n- Consider revising onboarding process\n- Alex mentioned something about timeline",
+  "expected_output_note": "- Identify uncertainty in statements\n- Avoid turning suggestions into confirmed action items\n- Do not assign owner or deadline unless explicitly stated\n- Highlight ambiguity or open questions",
+  "model_output_raw": "{\n  \"decisions\": [],\n  \"action_items\": [],\n  \"open_questions\": [\n    \"Maybe update the pricing model?\",\n    \"Consider revising onboarding process\",\n    \"Alex mentioned something about timeline\"\n  ]\n}",
+  "model_output_json": {
+    "decisions": [],
+    "action_items": [],
+    "open_questions": [
+      "Maybe update the pricing model?",
+      "Consider revising onboarding process",
+      "Alex mentioned something about timeline"
+    ]
+  }
+}
