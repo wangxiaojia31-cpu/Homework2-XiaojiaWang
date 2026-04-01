@@ -52,3 +52,9 @@ This task is valuable because:
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+## Environment Setup
+Create a local `.env` file and add your API key:
+
+## Video Intro
+https://youtu.be/-zg08_garZA
